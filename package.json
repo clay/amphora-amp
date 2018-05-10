@@ -1,0 +1,34 @@
+{
+  "name": "amphora-amp",
+  "version": "0.0.1",
+  "description": "An Amp HTML renderer for component data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint --max-warnings 0 lib test",
+    "mocha": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "amphora-fs": "^0.1.0",
+    "bluebird": "^3.5.0",
+    "clay-log": "^1.2.0",
+    "clayhandlebars": "^3.2.2",
+    "clayutils": "^2.0.3",
+    "glob": "^7.1.1",
+    "handlebars": "^4.0.6",
+    "js-yaml": "^3.8.2",
+    "lodash": "^4.17.4",
+    "nymag-fs": "^1.0.1",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^3.19.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "sinon": "1.17.7"
+  },
+  "author": "",
+  "license": "MIT"
+}
