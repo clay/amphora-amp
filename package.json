@@ -16,15 +16,16 @@
     "clayutils": "^2.0.3",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.2",
     "eslint": "^3.19.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "sinon": "1.17.7"
+    "sinon": "1.17.7",
+    "sshpk": "^1.14.2"
   },
   "repository": {
     "type": "git",
