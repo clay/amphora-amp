@@ -1,6 +1,6 @@
 # Amphora AMP HTML
 
-[![Coverage Status](https://coveralls.io/repos/github/clay/amphora-amp/badge.svg?branch=master)](https://coveralls.io/github/clay/amphora-amp?branch=master) [![CircleCI](https://circleci.com/gh/clay/amphora-amp/tree/master.svg?style=svg)](https://circleci.com/gh/clay/amphora-amp/tree/master)
+[![CircleCI](https://circleci.com/gh/clay/amphora-amp/tree/master.svg?style=svg)](https://circleci.com/gh/clay/amphora-amp/tree/master) [![Coverage Status](https://coveralls.io/repos/github/clay/amphora-amp/badge.svg?branch=master)](https://coveralls.io/github/clay/amphora-amp?branch=master)
 
 The [AMP HTML Format](https://www.ampproject.org/docs/) renderer for Clay components.
 
