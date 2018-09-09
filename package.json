@@ -11,7 +11,7 @@
   "dependencies": {
     "amphora-fs": "^1.0.1",
     "bluebird": "^3.5.0",
-    "clay-log": "^1.2.0",
+    "clay-log": "^1.3.1",
     "clayhandlebars": "^3.2.2",
     "clayutils": "^2.6.0",
     "glob": "^7.1.1",
