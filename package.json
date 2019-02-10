@@ -4,9 +4,9 @@
   "description": "An AMPHTML renderer for component data",
   "main": "index.js",
   "scripts": {
-    "test": "npm run eslint && npm run mocha",
+    "test": "npm run eslint && npm run jest -- --coverage --no-cache",
     "eslint": "eslint --max-warnings 0 lib test",
-    "mocha": "istanbul cover _mocha"
+    "jest": "jest"
   },
   "dependencies": {
     "amphora-fs": "^1.0.1",
@@ -19,13 +19,29 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
     "coveralls": "^3.0.2",
     "eslint": "^3.19.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.2.0",
-    "sinon": "1.17.7",
-    "sshpk": "^1.14.2"
+    "jest": "23.6.0"
+  },
+  "jest": {
+    "clearMocks": true,
+    "restoreMocks": true,
+    "collectCoverageFrom": [
+      "<rootDir>/lib/**/*.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "setupFiles": [
+      "<rootDir>/test/setupFile.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(hbs)$": "<rootDir>/__mocks__/fileMock.js"
+    }
   },
   "repository": {
     "type": "git",
