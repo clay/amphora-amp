@@ -16,7 +16,7 @@
     "clayutils": "^2.6.0",
     "glob": "^7.1.1",
     "handlebars": "^4.0.6",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
