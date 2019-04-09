@@ -1,6 +1,6 @@
 {
   "name": "amphora-amp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An AMPHTML renderer for component data",
   "main": "index.js",
   "scripts": {
