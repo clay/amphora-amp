@@ -15,8 +15,10 @@
     "clayhandlebars": "^3.2.2",
     "clayutils": "^2.6.0",
     "glob": "^7.1.1",
-    "handlebars": "^4.0.6",
     "lodash": "^4.17.11"
+  },
+  "peerDependencies": {
+    "handlebars": "4"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
